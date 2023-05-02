@@ -1,19 +1,15 @@
 body{
     display: flex;
-    align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    flex-direction: column;
+    margin-top: 120px;
     background: rgba(98, 167, 207, 0.726);
 }
 
 .conteiner{
-    max-width: 650px;
-    width: 100%;
     padding: 30px;
     background: #fff;
-    border-radius: 20px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
 }
 
 header{
@@ -27,18 +23,43 @@ header{
 }
 
 input{
-    margin: 25px 5px;
     padding: 7px 5px;
+}
+
+.height{
+    text-align: end;
+}
+
+.weight{
+    text-align: end;
 }
 
 button {
     border: none;
-    outline: none;
+    border-bottom: 2px solid black;
     color: #fff;
     background-color: rgb(98, 167, 207);
-    border-radius: 5px;
-    height: 25px;
-    padding: 0 15px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0 20px;
     font-size: 17px;
-    cursor: pointer;
-  }
+    cursor: pointer;  
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    display: grid;
+}
+
+label{
+    padding: 5px;
+}
+
+p{
+    margin: 8px 0;
+}
