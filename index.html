@@ -18,12 +18,11 @@
             <div>
                 <p>Gender: </p>
                 <label class="container">Male
-                <input type="radio">
+                <input type="radio" name="size">
                 <span class="male"></span>
               </label>
               <label class="container">Female
-                <input type="radio">
-                <span class="female"></span>
+                <input class="female" type="radio" name="size" />
               </label>
             </div>
             <p>Height:</p>
@@ -33,8 +32,9 @@
             <p class="result">Result: </p>
         </span>
         <div>
-            <button>Calculate</button>
+            <button id="btn">Calculate</button>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
