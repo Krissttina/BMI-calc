@@ -25,11 +25,18 @@
                 <input class="female" type="radio" name="size" />
               </label>
             </div>
-            <p>Height:</p>
-            <input type="text" class="height" placeholder="cm"/>
-            <p>Weight:</p>
-            <input type="text" class="weight" placeholder="kg"/> 
+            <p>Height(cm)</p>
+            <input type="text" class="height" placeholder="Height"/>
+            <p>Weight(kg)</p>
+            <input type="text" class="weight" placeholder="Weight"/> 
             <p class="result">Result: </p>
+            <div class="res">
+                <p id="res">00.00</p>
+            </div>
+            <div class="chart"></div>
+            <defs>
+                <path d="M0 140 A140 140, 0, 0, 1, 6.9 96.7 L140 140 Z" fill="#bc2020"></path>
+            </defs>
         </span>
         <div>
             <button id="btn">Calculate</button>

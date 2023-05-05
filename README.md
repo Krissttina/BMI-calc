@@ -1,1 +1,4 @@
-# BMI-calc
+### BMI calculator
+
+
+![preview](preview.png)

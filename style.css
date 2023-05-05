@@ -1,3 +1,7 @@
+*{
+    font-family: Arial;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -24,24 +28,17 @@ header{
 
 input{
     padding: 7px 5px;
-}
-
-.height{
-    text-align: end;
-}
-
-.weight{
-    text-align: end;
+    border: none;
+    border-bottom: 2px solid rgba(98, 167, 207, 0.726);
 }
 
 button {
     border: none;
-    border-bottom: 2px solid black;
     color: #fff;
     background-color: rgb(98, 167, 207);
-    border-radius: 15px;
+    border-radius: 5px;
     height: 30px;
-    padding: 0 20px;
+    padding: 0 60px;
     font-size: 17px;
     cursor: pointer;  
 }
@@ -66,4 +63,13 @@ label{
 
 p{
     margin: 8px 0;
+}
+
+.res{
+    margin: 20px;
+    background: rgb(238, 238, 238);
+    border-radius: 34px;
+    color: rgb(98, 167, 207);
+    font-size: 27px;
+    font-weight: bold;
 }
